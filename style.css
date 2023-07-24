@@ -3,5 +3,37 @@ body{
 }
 div {
     font-size: 20px;
+    padding-top: 30px;
+    
+}
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+}
+
+input:hover {
+    background-color: red;
+}
+
+.stack:hover {
+    padding: 10px 0;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .stack {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        flex: 0 1 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px 20px 10px;
+        
+    }
     
 }
